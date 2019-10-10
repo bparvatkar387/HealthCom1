@@ -74,7 +74,7 @@ public class Patient_Home extends AppCompatActivity {
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
-                    Intent intent = new Intent(getApplicationContext(), RecyclerViewList.class);
+                    Intent intent = new Intent(getApplicationContext(), Selected_Hospital.class);
                     intent.putExtra("state", spnState.getSelectedItem().toString());
                     intent.putExtra("district", spnDistrict.getSelectedItem().toString());
 

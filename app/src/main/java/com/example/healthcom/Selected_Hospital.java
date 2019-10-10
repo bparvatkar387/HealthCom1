@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class RecyclerViewList extends AppCompatActivity implements ListWithIDAdapter.OnHsptListener {
+public class Selected_Hospital extends AppCompatActivity implements ListWithIDAdapter.OnHsptListener {
     private ArrayList<Integer> jHsptIDs = new ArrayList<>();
     private ArrayList<String> jHsptNames = new ArrayList<>();
     private ListWithIDAdapter adapter;

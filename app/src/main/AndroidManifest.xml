@@ -23,7 +23,7 @@
         <activity android:name=".HospitalDetails" >
 
         </activity>
-        <activity android:name=".RecyclerViewList" />
+        <activity android:name=".Selected_Hospital" />
         <activity android:name=".Patient_Home">
 
         </activity>
